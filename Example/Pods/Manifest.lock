@@ -1,0 +1,16 @@
+PODS:
+  - Summerthread (0.1.0)
+
+DEPENDENCIES:
+  - Summerthread (from `../`)
+
+EXTERNAL SOURCES:
+  Summerthread:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Summerthread: fbe5f756460a3ac3b4de83e04e8f761b165f6170
+
+PODFILE CHECKSUM: acca0af2b2b46056c1fd336c63475e3a3b8c2ae9
+
+COCOAPODS: 1.8.4

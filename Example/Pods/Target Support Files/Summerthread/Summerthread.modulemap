@@ -1,0 +1,6 @@
+framework module Summerthread {
+  umbrella header "Summerthread-umbrella.h"
+
+  export *
+  module * { export * }
+}

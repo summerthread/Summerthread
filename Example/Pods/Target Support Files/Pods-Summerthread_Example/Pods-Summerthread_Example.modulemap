@@ -1,0 +1,6 @@
+framework module Pods_Summerthread_Example {
+  umbrella header "Pods-Summerthread_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
