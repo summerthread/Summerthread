@@ -28,7 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		070C76A255BDB294DE0339F1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		070C76A255BDB294DE0339F1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		4DA34562C0EF20AD77B632E9 /* Pods_Summerthread_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Summerthread_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* Summerthread_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Summerthread_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -43,9 +43,9 @@
 		708BCFDCA09594EC187A7795 /* Pods_Summerthread_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Summerthread_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A5A1309167DD725023C5B48 /* Pods-Summerthread_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Summerthread_Tests.release.xcconfig"; path = "Target Support Files/Pods-Summerthread_Tests/Pods-Summerthread_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		9EAC16371E3433CD48423BFA /* Pods-Summerthread_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Summerthread_Example.release.xcconfig"; path = "Target Support Files/Pods-Summerthread_Example/Pods-Summerthread_Example.release.xcconfig"; sourceTree = "<group>"; };
-		A94060E2E5D919948496246D /* Summerthread.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = Summerthread.podspec; path = ../Summerthread.podspec; sourceTree = "<group>"; };
+		A94060E2E5D919948496246D /* Summerthread.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Summerthread.podspec; path = ../Summerthread.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		ABECDE4525A40DF03C533F50 /* Pods-Summerthread_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Summerthread_Example.debug.xcconfig"; path = "Target Support Files/Pods-Summerthread_Example/Pods-Summerthread_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		EC3CED80C9AD150AF847843F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		EC3CED80C9AD150AF847843F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		EEE54E34B028A0B3B65BB671 /* Pods-Summerthread_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Summerthread_Tests.debug.xcconfig"; path = "Target Support Files/Pods-Summerthread_Tests/Pods-Summerthread_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -147,7 +147,6 @@
 				EEE54E34B028A0B3B65BB671 /* Pods-Summerthread_Tests.debug.xcconfig */,
 				9A5A1309167DD725023C5B48 /* Pods-Summerthread_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
