@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Summerthread
 
 [![CI Status](https://img.shields.io/travis/summerthread/Summerthread.svg?style=flat)](https://travis-ci.org/summerthread/Summerthread)
@@ -27,3 +28,6 @@ summerthread, summerthread@163.com
 ## License
 
 Summerthread is available under the MIT license. See the LICENSE file for more info.
+=======
+# Summerthread
+>>>>>>> 22bac0f2960a4bc4ac98f020c0dce745b32c2107
