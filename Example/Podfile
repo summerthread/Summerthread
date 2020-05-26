@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'Summerthread_Example' do
+  pod 'Summerthread', :path => '../'
+
+  target 'Summerthread_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
